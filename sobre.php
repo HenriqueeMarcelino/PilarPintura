@@ -12,7 +12,27 @@
 
 </head>
 <body>
-<?= include 'header.php'?>
+
+<header class="d-flex justify-content-center py-3">
+  <h1>Pilar Pinturas</h1>
+  <ul class="nav nav-pills">
+  </ul>
+</header>
+  <header class="d-flex justify-content-center py-3">
+    <ul class="nav nav-pills">
+     <a href="index.php" class="nav-link">Home</a>
+     <a href="portfolio.php" class="nav-link">Portfolio</a>
+     <a href="sobre.php" class="nav-link">Sobre</a>
+    <a href="contato.php" class="nav-link">Contato</a>
+</ul>
+  </header>,
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://wa.me/55(aqui seu numero com ddd | tudo junto)?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+<i style="margin-top:16px" class="fa fa-whatsapp"></i>
+</a>
+
 <section>
   <div class="container">
     <div class="row">
@@ -29,5 +49,21 @@
   </div>
 </section>
 <h1 style="margin-top:14%;"></h1>
-<?= include 'footer.php'?>
-</body>
+<section class="parcerias">
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">© Senac</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <p style="margin-top: 3.4%;">pilar@contato.com | 19991672114 | Campinas</p>
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="index.php" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="portfolio.php" class="nav-link px-2 text-muted">Portfolio</a></li>
+        <li class="nav-item"><a href="sobre.php" class="nav-link px-2 text-muted">Sobre</a></li>
+        <li class="nav-item"><a href="contato.php" class="nav-link px-2 text-muted">Contato</a></li>
+      </ul>
+    </footer>
+  </div>
+  </section></body>
